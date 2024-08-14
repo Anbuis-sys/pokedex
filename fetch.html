@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex</title>
+    <link rel="stylesheet" href="apis.css">
+    <script src="fetch-pokemon.js" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="card-container" class="container row card-container"></div>
+        <div class="container row">
+            <label for="pokemon-name">Pokemon (name/ID)</label>
+            <input id="pokemon-name" type="text" name="pokemon-name" value="" placeholder="Enter ID or Name">
+        </div>
+        <div class="container row">
+            <button class="btn-primary" id="prev-btn">Previous</button>
+            <button class="btn-primary" id="get-btn">Get Pokemon</button>
+            <button class="btn-primary" id="next-btn">Next</button>
+        </div>
+    </div>
+</body>
+</html>
